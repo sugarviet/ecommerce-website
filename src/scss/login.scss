@@ -1,0 +1,38 @@
+.login-section{
+    min-height: 572px;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+
+    .login-form{
+        width: 400px;
+        height: 300px;
+        border: 1px solid #131e3b;
+        border-radius: 10px;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        h1{
+            margin-bottom: 80px;
+        }
+
+        .login-btn{
+            display: flex;
+            align-items: center;
+            background-color: #db4c3e;
+
+            span{
+                margin-left: 10px;
+                font-size: 20px;
+                font-weight: 500;
+            }
+
+            &:hover{
+                background-color: #db4c3e;
+            }
+        }
+    }
+ 
+}

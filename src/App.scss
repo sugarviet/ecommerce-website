@@ -1,0 +1,23 @@
+@import './scss/header.scss';
+@import './scss/footer.scss';
+@import './scss/home.scss';
+@import './scss/mixins.scss';
+@import './scss/variables.scss';
+@import './scss/services.scss';
+@import './scss/productCard.scss';
+@import './scss/clock.scss';
+@import './scss/all.scss';
+@import './scss/login.scss';
+@import './scss/productDetail.scss';
+@import './scss/addProduct.scss';
+@import './scss/updateProduct.scss';
+@import './scss/productCardSkeleton.scss';
+@import './scss/allSkeleton.scss';
+@import './scss/productDetailSkeleton.scss';
+@import './scss/aboutUs.scss';
+
+
+
+*{
+    box-sizing: border-box;
+}

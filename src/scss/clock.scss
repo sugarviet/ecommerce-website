@@ -1,0 +1,31 @@
+.clock-wrapper{
+    color: white;
+    display: flex;
+    align-items: center;
+    transform: translateY(-10%);
+
+    .clock-data{
+        margin-right: 10px;
+        font-size: 20px;
+        display: flex;
+
+        div{
+            text-align: center;
+            padding: 0;
+
+            h1{
+                font-size: 30px;
+            }
+            
+            
+        }
+        span{
+            margin-left: 10px;
+            font-size: 35px;
+            transform: translateY(14%);
+            
+        }
+    }
+
+    
+}

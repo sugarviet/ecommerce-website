@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect } from 'react';
+import './App.scss';
+import Layout from './components/Layout/Layout';
+import {useDispatch} from 'react-redux'
+import {fetchHomeData} from './features/Home'
+import {fetchAllData} from './features/All'
+
+
+import {useState} from 'react';
+
+
 
 function App() {
+  localStorage.setItem('accessToken', false);
+  const dispatch = useDispatch();
+
+  useEffect(()=> {
+    dispatch(fetchHomeData());
+    dispatch(fetchAllData());
+  }, [])
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+        <Layout/>
     </div>
   );
 }

@@ -1,0 +1,36 @@
+.product-detail-section{
+    height: 575px;
+    padding: 70px;
+
+    .product-detail-img{
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .product-detail-content{
+        padding: 10px;
+
+        .rating{
+            display: flex;
+            align-items: center;
+            .checked {
+                color: orange;
+              }
+
+              .rating-score{
+                margin-left: 10px;
+                
+              }
+        }
+        .add-to-cart-btn{
+            background-color: #131e3b;
+
+            &:hover{
+                background-color: #131e3b;
+            }
+        }
+    }
+}

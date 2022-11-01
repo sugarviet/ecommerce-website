@@ -1,0 +1,36 @@
+.add-product-section{
+    // height: 570px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+
+    .add-product-form{
+        padding: 20px;
+        border: 1px solid #131e3b;
+        border-radius: 10px;
+        // height: 650px;
+        width: 500px;
+        margin-bottom: 30px;
+
+        .error{
+            transform: translateY(-30px);
+        }
+        .error1{
+            transform: translateY(-25px);
+        }
+
+        .add-product-place{
+            display: flex;
+                justify-content: center;
+            .add-product-btn{
+                margin-top: 10px;
+                background-color: #131e3b;
+
+                &:hover{
+                    background-color: #131e3b;
+                }
+            }
+        }
+    }
+}

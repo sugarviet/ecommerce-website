@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&family=Poppins:ital@0;1&family=Rancho&display=swap');
+.about-us{
+    height: 700px;
+    align-items: center;
+    .about-us-content{
+        margin-top: 60px;
+        h1{
+            font-size: 100px;
+            text-align: center;
+            font-weight: bold;
+            font-family: 'Poor Story', cursive;
+        }
+
+        
+    }
+    .about-info{
+        // width: 100px;
+        height: 50px;
+        border-radius: 12px;
+        border: 1px solid black;
+        display: flex;
+        font-family: 'Poor Story', cursive;
+        align-items: center;
+        padding: 20px;
+        cursor: pointer;
+
+        span{
+            font-size: 40px;
+            margin-top: 10px;
+            // background-color: red;
+        }
+        h5{
+            font-size: 30px;
+            // background-color: red;
+        }
+    }
+    .about-us-img{
+        height: 500px;
+        width: 600px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.update-product-section{
+    // height: 570px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+
+    .update-product-form{
+        padding: 20px;
+        border: 1px solid #131e3b;
+        border-radius: 10px;
+        height: 600px;
+        width: 500px;
+        margin-bottom: 30px;
+
+        .update-product-place{
+            display: flex;
+                justify-content: center;
+            .update-product-btn{
+                margin-top: 20px;
+                background-color: #131e3b;
+
+                &:hover{
+                    background-color: #131e3b;
+                }
+            }
+        }
+    }
+}
